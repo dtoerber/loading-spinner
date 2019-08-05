@@ -4,12 +4,7 @@ import {
   ApplicationRef,
   Injector
 } from '@angular/core';
-import {
-  ComponentType,
-  Portal,
-  ComponentPortal,
-  DomPortalHost
-} from '@angular/cdk/portal';
+import { ComponentPortal, DomPortalHost } from '@angular/cdk/portal';
 import { LoadingSpinnerComponent } from '../components/loading-spinner/loading-spinner.component';
 
 @Injectable({
